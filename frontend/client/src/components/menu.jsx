@@ -7,7 +7,7 @@ function menu() {
       <ul className='flex gap-12 text-white '>
         <dt><Link to="/">Home</Link></dt>
         <dt><a href='#'>About</a></dt>
-        <dt> <a href="">Contact Us</a></dt>
+        <dt> <Link to="/contact_us">contact us</Link></dt>
         <dt><a href="">Profile</a></dt>
       </ul>
     </div>

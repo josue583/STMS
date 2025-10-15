@@ -5,7 +5,7 @@ import { autholizeUser } from "../middlewares/authorize.js";
  const route=express.Router();
 
 
-route.post("/createTeacher",veriftToken,autholizeUser(['admin']),teacherCreate)
+route.post("/createTeacher",teacherCreate)
 route.get("/teachers", getTeachers)
 route.get("/teachers/:id",getTeacherById)
 route.put("/teachers/:id",updateTeacherById)

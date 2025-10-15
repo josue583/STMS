@@ -11,6 +11,7 @@ import NewCourse from './courses/newCourse'
 import SignUp from './signUp/signup'
 import Teachers from './teacher/teachers'
 import Newteacher from './teacher/newTeacher'
+import Contact_us from './contact_us/contact_us'
 function App() {
   const [count, setCount] = useState(0)
   
@@ -30,7 +31,7 @@ function App() {
       <Route path='/signup' element={<SignUp/>}/>
       <Route path='/teachers' element={<Teachers/>}/>
       <Route path='/newTeacher' element={<Newteacher/>}/>
-    
+      <Route path='/contact_us' element={<Contact_us/>}   />
    
    </Routes>
   </Router>

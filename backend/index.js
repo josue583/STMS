@@ -8,7 +8,9 @@ import courseRoutes from "./routes/courseRoute.js"
 import sectionRoutes from "./routes/sectionRoute.js"
 import classRoutes from "./routes/classRoutes.js"
 import userRoutes from "./routes/userRoute.js"
+import Contact_usRouter from "./routes/contact_us.js";
 import cors from "cors"
+// import contact_us from "./model/contact_us.js";
 
 configDotenv();
 
@@ -35,3 +37,4 @@ mongoose
         app.use("/api/section/", sectionRoutes)
         app.use("/api/class/",classRoutes)
         app.use("/api/user/",userRoutes)
+        app.use("/api/contact_us",Contact_usRouter)

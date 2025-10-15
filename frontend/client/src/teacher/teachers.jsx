@@ -4,14 +4,7 @@ import Menu from '../components/menu'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 function teachers() {
-
-  // const teacher={
-  //   teacherName:"",
-  //   email:"",
-  //   degree:"",
-
-    
-  // }
+ 
   const [teachers,setTeachers]=useState([])
   useEffect(()=>{
     const fetchdata=(async()=>{
