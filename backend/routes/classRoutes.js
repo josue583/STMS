@@ -1,5 +1,5 @@
 import express from "express";
-import { createClass,getClasses,getClassById,deleteById,updateClass } from "../controller/classControl.js";
+import { createClass,getClasses,getClassById,deleteById,updateClass } from "../controller/Classcontroller.js";
 
 
 

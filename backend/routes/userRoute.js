@@ -1,5 +1,5 @@
 import express from "express";
-import { signup, login,getUsers,getUserbyId } from "../Controller/userControl.js";
+import { signup, login,getUsers,getUserbyId } from "../controller/Ucontroller.js";
 import { veriftToken } from "../middlewares/authenticate.js";
 import { autholizeUser } from "../middlewares/authorize.js";
 

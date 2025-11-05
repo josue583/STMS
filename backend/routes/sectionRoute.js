@@ -1,5 +1,5 @@
 import express from "express";
-import { createSection,getSections,getSectionById, updateSection, deleteSection } from "../controller/sectionControl.js";
+import { createSection,getSections,getSectionById, updateSection, deleteSection } from "../controller/Sectcontroller.js";
 
 
 const route=express.Router()

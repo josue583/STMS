@@ -1,5 +1,5 @@
 import express from "express";
-import {create, deleteStudent, getstudentByID, ListStudents, updatById } from "../controller/studentControl.js";
+import {create, deleteStudent, getstudentByID, ListStudents, updatById } from "../controller/Scontroller.js";
 import { veriftToken } from "../middlewares/authenticate.js";
 import { autholizeUser } from "../middlewares/authorize.js";
 

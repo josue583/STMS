@@ -1,5 +1,5 @@
 import express from "express";
-import { createCourse,getCoursebyId,getCourses, updateCourse } from "../controller/courseControl.js";
+import { createCourse,getCoursebyId,getCourses, updateCourse } from "../controller/Caursecontroller.js";
 
 
 
