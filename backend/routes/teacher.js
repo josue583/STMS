@@ -1,5 +1,5 @@
 import express from "express";
-import { teacherCreate,getTeachers, getTeacherById, updateTeacherById,deleteById } from "STMS/backend/controller/teacherControl.js";
+import { teacherCreate,getTeachers, getTeacherById, updateTeacherById,deleteById } from "../controller/Tcontroller.js";
 import { veriftToken } from "../middlewares/authenticate.js";
 import { autholizeUser } from "../middlewares/authorize.js";
  const route=express.Router();
