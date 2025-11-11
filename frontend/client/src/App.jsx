@@ -22,9 +22,9 @@ function App() {
   {/* w-full min-h-screen flex bg-blue-800 justify-center */}
   <Router>
     <Routes>
-     <Route path='/' element={<Login/>}/>
+     <Route path='/login' element={<Login/>}/>
    <Route path='/dashboard' element={<Dashboard/>}/>
-    <Route path='/user' element={<Users/>}/>
+    <Route path='/' element={<Users/>}/>
       <Route path='/adduser' element={<Createuser/>}/>
       <Route path='/update/:id' element={<Update/>}/>
       <Route path='/courses' element={<Courses/>}/>
