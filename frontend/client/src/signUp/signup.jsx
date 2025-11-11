@@ -27,7 +27,7 @@ function SignUp() {
      
         console.log(user)
         await axios
-                   .post("http://localhost:8000/api/user/signup",user,{ headers: {
+                   .post("https://stms-backend-x1kp.onrender.com/api/user/signup",user,{ headers: {
                 'Content-Type': 'application/json'
             }
  
