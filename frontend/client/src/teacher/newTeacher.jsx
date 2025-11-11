@@ -12,7 +12,8 @@ function addUser() {
     teacherName:"",
     email:"",
     degree:"",
-    phone:""
+    phone:"",
+   "userId":""
 
    }
     const [teachers,setTeachers]=useState(teacher)
@@ -69,6 +70,10 @@ function addUser() {
         <div className='flex flex-col'>
             <label htmlFor="phone">Degree</label>
             <input type="text" className='border border-black rounded-sm' name='degree' placeholder='degree'onChange={inputHandler} />
+        </div>
+                 <div className='flex flex-col'>
+            <label htmlFor="phone">userId</label>
+            <input type="text" className='border border-black rounded-sm' name='useId' placeholder='userId'onChange={inputHandler} />
         </div>
          
          
