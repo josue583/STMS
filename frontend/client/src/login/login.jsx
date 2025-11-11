@@ -30,7 +30,7 @@ function Login() {
             }
             console.log(data);
             
-        const res=await axios.post("http://localhost:8000/api/user/login",
+        const res=await axios.post("https://stms-backend-x1kp.onrender.com/api/user/login",
             data
         ,{headers: { "Content-Type": "application/json" }})
         console.log(res.data)
