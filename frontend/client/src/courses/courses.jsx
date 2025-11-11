@@ -11,7 +11,7 @@ function courses() {
     try {
          useEffect(()=>{
         const fetchdata=async()=>{
-          const retreivedCourse=  await axios.get("http://localhost:8000/api/course/courses")
+          const retreivedCourse=  await axios.get("https://stms-backend-x1kp.onrender.com/api/course/courses")
           setCourse(retreivedCourse.data);
 
 
