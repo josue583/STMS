@@ -8,7 +8,7 @@ import Sidebar from '../components/sidebar'
 
 function addUser() {
    const teacher={
-    teaherId:"",
+    teacherId:"",
     teacherName:"",
     email:"",
     degree:"",
