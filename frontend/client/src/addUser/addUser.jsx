@@ -25,7 +25,7 @@ function addUser() {
         e.preventDefault();
      
         await axios
-                   .post("http://localhost:8000/api/student/add",user,{ headers: {
+                   .post("https://stms-backend-x1kp.onrender.com/api/student/add",user,{ headers: {
                 'Content-Type': 'application/json'
             }
 
