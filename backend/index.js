@@ -30,7 +30,7 @@ mongoose
         .connect(MONGO_URL)
         .then(()=>{
             console.log("database connected successfuly")
-            app.listen(8000,()=>{
+            app.listen(PORT,()=>{
                 console.log(`The server is running on port ${PORT}`)
             })
         })
