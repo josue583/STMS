@@ -13,7 +13,7 @@ function addUser() {
     email:"",
     degree:"",
     phone:"",
-   "userId":""
+   userId:""
 
    }
     const [teachers,setTeachers]=useState(teacher)
