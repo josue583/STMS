@@ -18,7 +18,7 @@ function addUser() {
     const [course,setCourse]=useState(courses)
     const [teachers,setTeachers]=useState([])
       useEffect(()=>{
-        axios.get("http://localhost:8000/api/teacher/teachers")
+        axios.get("https://stms-backend-x1kp.onrender.com/api/teacher/teachers")
              .then((res)=>{
               setTeachers(res.data)
               // console.log(res.data)
