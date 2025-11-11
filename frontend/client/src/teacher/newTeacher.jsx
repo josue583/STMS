@@ -29,7 +29,7 @@ function addUser() {
     const submitForm=async(e)=>{
         e.preventDefault();
         await axios
-                   .post("http://localhost:8000/api/teacher/createTeacher",teachers)
+                   .post("https://stms-backend-x1kp.onrender.com/api/teacher/createTeacher",teachers)
                    .then((response)=>{
                     toast.success(response.data.message,{position:"top-right"})
                     navigate("/teacher");
