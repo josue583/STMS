@@ -12,7 +12,7 @@ function getUser() {
       try {
         const token= localStorage.getItem('token');
         console.log("Token",token)
-      const fetchedData= await axios.get("http://localhost:8000/api/student/students",{ headers: {
+      const fetchedData= await axios.get("https://stms-backend-x1kp.onrender.com/api/student/students",{ headers: {
                 'Authorization': `Bearer ${token}`,
                 'Content-Type': 'application/json'
             }})
