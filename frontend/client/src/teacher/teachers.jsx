@@ -8,7 +8,7 @@ function teachers() {
   const [teachers,setTeachers]=useState([])
   useEffect(()=>{
     const fetchdata=(async()=>{
-    const response=await  axios.get("http://localhost:8000/api/teacher/teachers")
+    const response=await  axios.get("https://stms-backend-x1kp.onrender.com/api/teacher/teachers")
        console.log(response.data);
        setTeachers(response.data)
     })
