@@ -20,7 +20,7 @@ const MONGO_URL=process.env.MONGOURL
 const app=express();
 app.use(bodyParser.json());
 app.use(cors({
-     origin: ["https://stms-tawny.vercel.app"],  // replace with your actual Vercel URL
+     origin: ["https://stms-git-main-ndikumwenayo-josues-projects.vercel.app"],  // replace with your actual Vercel URL
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }))
