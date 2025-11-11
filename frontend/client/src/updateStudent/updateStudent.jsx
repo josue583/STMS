@@ -25,7 +25,7 @@ function updateStudent() {
     const submitForm=async(e)=>{
         e.preventDefault();
         await axios
-                   .put(`http://localhost:8000/api/student/${id}`,user)
+                   .put(`https://stms-backend-x1kp.onrender.com/api/student/${id}`,user)
                    .then((response)=>{
                     toast.success(response.data.message,{position:"top-right"})
                     navigate("/");
